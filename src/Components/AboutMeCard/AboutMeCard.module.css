@@ -1,0 +1,42 @@
+@import url("../../styles/colors.css");
+
+.container {
+    margin: 80px 15%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header, .subheader, .title, .text {
+    color: var(--text-color);
+    margin: 10px 0;
+    font-family: system-ui;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    text-align: justify;
+}
+.header {
+    font-size: 40px;
+    color: var(--main-color);
+}
+.subheader {
+    font-size: 35px;
+    color: var(--accent-color);
+}
+.title {
+    font-size: 20px;
+}
+.text {
+    font-size: 20px;
+    text-transform: none;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.imagePerson {
+    width: 400px;
+    height: 580px;
+    padding-right: 50px;
+    border-radius: 30%;
+}

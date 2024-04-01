@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutMeCard from './Components/AboutMeCard';
+import BeforeAfterCard from './Components/BeforeAfterCard';
+import ContactsCard from './Components/ContactsCard';
+import CourseProgramCard from './Components/CourseProgramCard';
+import Header from './Components/Header'
+import OpportunityCard from './Components/OpportunityCard';
+import PriceCard from './Components/PriceCard';
+import TitleCard from './Components/TitleCard';
+import TriggerCard from './Components/TriggerCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header />
+    <TitleCard />
+    <OpportunityCard />
+    <BeforeAfterCard />
+    <CourseProgramCard />
+    <AboutMeCard />
+    <TriggerCard />
+    <PriceCard />
+    <ContactsCard />
+    </>
   );
 }
 
