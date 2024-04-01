@@ -1,4 +1,3 @@
-import './App.css';
 import AboutMeCard from './Components/AboutMeCard';
 import BeforeAfterCard from './Components/BeforeAfterCard';
 import ContactsCard from './Components/ContactsCard';
