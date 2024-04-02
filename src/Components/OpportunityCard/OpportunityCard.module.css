@@ -10,14 +10,13 @@
     color: var(--main-color);
     font-family: system-ui;
     font-weight: 500;
-    letter-spacing: 2.8px;
 }
 .header {
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 .subheader {
-    font-size: 35px;
+    font-size: 30px;
 }
 .opportunityCarousel {
     display: inline-block;
@@ -25,7 +24,7 @@
     height: 250px;
     line-height: 40px;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px 0;
 }
 .buttonCarousel, .buttonCarouselActive {
@@ -42,4 +41,13 @@
 
 .buttonCarouselActive {
     background-color: #EDEDED;
+}
+
+@media (max-width: 800px) {
+    .header, .subheader {
+        font-size: 25px;
+    }
+    .opportunityCarousel {
+        font-size: 20px;
+    }
 }

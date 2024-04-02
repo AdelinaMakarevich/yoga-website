@@ -9,20 +9,27 @@
     padding: 60px 0;
 }
 .text {
-    margin: 10px 0;
-    font-family: system-ui;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2.8px;
+    margin: 10px 5%;
+    font-family: Arial, sans-serif;
+    color: var(--main-color);
+    font-size: 25px;
     text-align: left;
-    width: 500px;
+    width: 30%;
     background-color: whitesmoke;
     border-radius: 30% 5% 40% 20%;
     padding: 5%;
 }
 .imagePerson {
-    width: 500px;
-    height: 560px;
-    padding: 0 80px;
+    width: 30%;
+    height: auto;
     border-radius: 30%;
+}
+@media (max-width: 1000px) {
+    .text {
+        font-size: 15px;
+        width: 40%;
+    }
+    .imagePerson {
+        width: 40%;
+    }
 }

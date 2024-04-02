@@ -3,18 +3,18 @@ import React, {useState, useEffect} from 'react';
 
 function OpportunityCard() {
   let [state, setState] = useState(true);
-  useEffect(
-    () => {
+  useEffect(() => {
       let timerId = setInterval(() => {setState(state => !state)}, 7000);
       return () => {
         clearInterval(timerId)
       };
-    }, []
-  );
+    }, []);
   return (
     <section className={styles.container}>
+    <div>
     <h1 className={styles.header}>В результате прохождения курса</h1>
     <h2 className={styles.subheader}>Вы распрощаетесь с <span className={styles.accent}>10 кг жира</span> навсегда и без ущерба для здоровья всего за <span className={styles.accent}>3 месяца</span></h2>
+    </div>
     {state? <div>
       <p className={styles.opportunityCarousel}>
           - Станете энергичнее и увереннее<br/>
