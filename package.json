@@ -40,5 +40,10 @@
   "devDependencies": {
     "css-loader": "^6.10.0",
     "style-loader": "^3.3.4"
-  }
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
 }
