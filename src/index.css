@@ -2,6 +2,7 @@ body {
   background-color: var(--background-color);
   margin: 0;
   padding: 0;
+  -webkit-text-size-adjust: 100%;
 }
 ::-webkit-scrollbar {
   width: 8px; 

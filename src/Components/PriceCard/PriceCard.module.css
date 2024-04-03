@@ -55,6 +55,7 @@
     flex-direction: row;
     gap: 2%;
     text-align: center;
+    justify-content: center;
 }
 .case div {
     border-radius: 9px;
@@ -70,14 +71,20 @@
 .case div h3 {
     color: var(--main-color);
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .title {
-        font-size: 25px;
+        font-size: 30px;
     }
     .case {
         flex-direction: column;
+        align-items: center;
+    }
+    .case div {
+        margin: 10px;
+        width: 70%;
     }
     .article {
         width: 100%;
+        margin: 10px;
     }
 }
