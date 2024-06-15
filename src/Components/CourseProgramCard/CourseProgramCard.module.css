@@ -3,6 +3,10 @@
 .container {
     margin: 50px 15%;
     padding: 30px 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .header {
     color: var(--main-color);
@@ -12,7 +16,10 @@
     text-transform: uppercase;
     padding: 20px 0;
 }
-.list li{
+.list {
+    list-style-type: circle;
+}
+.list li {
     color: var(--text-color);
     font-family: system-ui;
     font-weight: 500;
@@ -20,6 +27,7 @@
     text-align: left;
     font-size: 25px;
     padding: 10px 0;
+    margin-bottom: 15px;
 }
 @media (max-width: 1000px) {
     .header {

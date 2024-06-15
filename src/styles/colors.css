@@ -1,8 +1,7 @@
 :root {
-    --text-color: #5F564B;
-    --main-color: #596638;
-    --light-text-color: #DFD5D4;
-    --background-color: #DFD5D4;
-    --accent-background-color: #CFD2CB;
-    --accent-color: #E59500;
+    --text-color: #30857D;
+    --main-color: #30857D;
+    --background-color: #FCFAFB;
+    --accent-background-color: #DDECEE;
+    --accent-color: #4EAEAB;
   }

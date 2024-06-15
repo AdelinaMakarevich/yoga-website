@@ -1,7 +1,10 @@
 @import url("../../styles/colors.css");
 
 .container {
-    margin: 100px 15%;
+    margin: 3% 0;
+    padding: 1%;
+    border: 2px solid var(--accent-color);
+    border-radius: 9px;
 }
 .accent {
     color: var(--accent-color);

@@ -2,6 +2,10 @@
 
 .container {
     margin: 80px 15%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .accent {
     color: var(--accent-color);
@@ -26,6 +30,12 @@
     text-align: left;
     font-size: 25px;
     padding: 20px 0;
+}
+.opportunityCarousel ul {
+    list-style-type: circle;
+}
+.opportunityCarousel ul li {
+    margin-bottom: 15px;
 }
 .buttonCarousel, .buttonCarouselActive {
     cursor: pointer;

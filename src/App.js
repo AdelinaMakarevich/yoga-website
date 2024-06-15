@@ -6,7 +6,6 @@ import Header from './Components/Header'
 import OpportunityCard from './Components/OpportunityCard';
 import PriceCard from './Components/PriceCard';
 import TitleCard from './Components/TitleCard';
-import TriggerCard from './Components/TriggerCard';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
     <BeforeAfterCard />
     <CourseProgramCard />
     <AboutMeCard />
-    <TriggerCard />
     <PriceCard />
     <ContactsCard />
     </>

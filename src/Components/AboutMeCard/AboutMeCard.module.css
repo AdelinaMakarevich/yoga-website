@@ -1,14 +1,14 @@
 @import url("../../styles/colors.css");
 
 .container {
-    margin: 80px 15%;
-    height: 600px;
+    margin: 80px 12.5%;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.header, .subheader, .title, .text {
+.header, .subheader, .title, .text, .subtitle {
     color: var(--text-color);
     margin: 10px 0;
     font-family: system-ui;
@@ -26,6 +26,9 @@
 .title {
     font-size: 25px;
 }
+.subtitle {
+    font-size: 20px;
+}
 .text {
     font-size: 25px;
     text-transform: none;
@@ -34,10 +37,9 @@
 }
 .imagePerson {
     display: inline-block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 600px;
     padding-left: 5%;
-    border-radius: 30%;
 }
 
 @media (max-width: 1000px) {

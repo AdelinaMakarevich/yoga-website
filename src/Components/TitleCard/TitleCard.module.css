@@ -1,13 +1,15 @@
 @import url("../../styles/colors.css");
 
-.container {
+.mainContainer {
     background: var(--accent-background-color);
-    height: 600px;
+    height: 100vh;
+    padding: 1% 10%;
+}
+.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 15%;
 }
 .headingSecondary,.headingMain, .subheading {
     margin: 10px 0;
@@ -18,20 +20,20 @@
 }
 .headingSecondary {
     color: var(--text-color);
-    font-size: 30px;
+    font-size: 60px;
 }
 .headingMain {
     color: var(--accent-color);
-    font-size: 60px;
+    font-size: 80px;
 }
 .subheading {
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 28px;
 }
 .imagePerson {
-    width: 500px;
-    height: 550px;
-    margin: 0 50px;
+    width: 600px;
+    height: 600px;
+    margin-right: 100px;
 }
 .iconContainer {
     text-align: right;
