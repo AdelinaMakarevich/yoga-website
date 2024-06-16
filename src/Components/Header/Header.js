@@ -8,7 +8,7 @@ function Header() {
   );
   return (
     <header className={styles.header}>
-    <h1 className={styles.title}>Обучающий курс-тренинг «Дыши и стройней»</h1>
+    <h1 className={styles.title}>Обучающий курс-тренинг «Легче дышать»</h1>
     {titleItems}
     </header>
   );
